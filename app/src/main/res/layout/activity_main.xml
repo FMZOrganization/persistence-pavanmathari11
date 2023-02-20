@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--    Name: Pavan Kumar Mathari-->
+<!--    CWID: 885186924-->
+<!--    E-mail: pavan.mathari@csu.fullerton.edu-->
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
-<!--    <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Hello World!"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
 
 
     <View
@@ -113,7 +111,7 @@
         android:id="@+id/redEditText"
         android:layout_width="90dp"
         android:layout_height="45dp"
-        android:hint="Red     0-1"
+        android:hint="@string/red_0_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
@@ -125,19 +123,20 @@
         android:id="@+id/greenEditText"
         android:layout_width="90dp"
         android:layout_height="45dp"
-        android:hint="Green  0-1"
+        android:hint="@string/green_0_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.65" />
+        app:layout_constraintVertical_bias="0.65"/>
+
 
     <EditText
         android:id="@+id/blueEditText"
         android:layout_width="90dp"
         android:layout_height="45dp"
-        android:hint="Blue     0-1"
+        android:hint="@string/blue_0_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
@@ -152,7 +151,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
-        android:text="Reset"
+        android:text="@string/reset"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.458"

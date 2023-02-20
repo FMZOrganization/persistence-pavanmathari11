@@ -1,3 +1,7 @@
+//Name: Pavan Kumar Mathari
+//CWID: 885186924
+//E-mail: pavan.mathari@csu.fullerton.edu
+
 package com.mypackage.rgb
 
 import android.graphics.Color

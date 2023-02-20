@@ -1,3 +1,11 @@
+<!--    Name: Pavan Kumar Mathari-->
+<!--    CWID: 885186924-->
+<!--    E-mail: pavan.mathari@csu.fullerton.edu-->
+
 <resources>
     <string name="app_name">RGB - Color Maker</string>
+    <string name="reset">Reset</string>
+    <string name="blue_0_1">Blue   0-1</string>
+    <string name="green_0_1">Green 0-1</string>
+    <string name="red_0_1">Red    0-1</string>
 </resources>

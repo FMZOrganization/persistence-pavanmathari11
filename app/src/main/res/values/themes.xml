@@ -1,3 +1,7 @@
+<!--    Name: Pavan Kumar Mathari-->
+<!--    CWID: 885186924-->
+<!--    E-mail: pavan.mathari@csu.fullerton.edu-->
+
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.Rgb" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
